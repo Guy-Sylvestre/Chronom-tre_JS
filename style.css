@@ -1,0 +1,16 @@
+body {
+    font-family: cursive, serif;
+}
+
+h3 {
+    font-size: 2em !important
+}
+
+.container {
+    width: 200px;
+}
+
+#countdown {
+    font-size: 5em;
+    color: red;
+}

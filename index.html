@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chronomètre</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="text-center bg-dark pt-5 text-success">
+
+
+    <h3 class="mb-5">Entrer le nombre de minutes</h3>
+
+    <div class="container">
+        <div class="group-form d-flex">
+            <input type="text" class="form-control text-center" min="1" max="99" size="1" maxlength="2" id="choice">
+            <button class="btn btn-success" type="button" onclick="getInputValue();">GO</button>
+        </div>
+    </div>
+    <div id="countdown"></div>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popers.js"></script>
+    <script src="./bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
